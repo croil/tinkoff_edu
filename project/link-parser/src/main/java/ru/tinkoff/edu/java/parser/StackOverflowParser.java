@@ -6,7 +6,7 @@ public class StackOverflowParser extends Parser {
     final String QUE = "questions";
 
     public StackOverflowParser() {
-        super("overflow.com");
+        super("stackoverflow.com");
     }
 
     public StackOverflowResult parse(String link) {
